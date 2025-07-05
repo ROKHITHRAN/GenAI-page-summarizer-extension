@@ -1,5 +1,5 @@
 export const getSummary = async (text: string): Promise<string> => {
-  const apiKey = "AIzaSyDnNYVexIczOPR2NaP89KbYx0lUyqci-kY"; // Replace with yours
+  const apiKey = "AIzaSyDnNYVexIczOPR2NaP89KbYx0lUyqci-kY";
 
   const res = await fetch(
     "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" +

@@ -1,4 +1,3 @@
-// src/popup/main.tsx
 import { useState } from "react";
 import { getSummary } from "./ai";
 
