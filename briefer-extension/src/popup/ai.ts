@@ -15,7 +15,7 @@ export const getSummary = async (text: string): Promise<string> => {
           {
             parts: [
               {
-                text: `Summarize this webpage and extract useful links.If its a news portal focus on data about the headlines:\n\n${text}`,
+                text: `Summarize this webpage concentrate only on the content based on main headline's contents,don't mention details about the website and extract useful links.:\n\n${text}`,
               },
             ],
           },
